@@ -61,6 +61,10 @@ body {
 .quiz-options label:hover {
     background-color: #eef5fa;
     border-color: #3498db;
+    
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease;
 }
 
 /* ラジオボタン自体の余白調整 */
